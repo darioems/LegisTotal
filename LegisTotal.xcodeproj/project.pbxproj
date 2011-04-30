@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A331020813460FD600327F7D /* legisTotal.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A331020713460FD600327F7D /* legisTotal.sqlite */; };
+		A3511466134605F800532CB6 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3511465134605F800532CB6 /* libsqlite3.0.dylib */; };
+		A3521D3F1345F6AC006B088A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3521D3E1345F6AC006B088A /* UIKit.framework */; };
+		A3521D411345F6AC006B088A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3521D401345F6AC006B088A /* Foundation.framework */; };
+		A3521D431345F6AC006B088A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3521D421345F6AC006B088A /* CoreGraphics.framework */; };
+		A3521D491345F6AC006B088A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3521D471345F6AC006B088A /* InfoPlist.strings */; };
+		A3521D4C1345F6AC006B088A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D4B1345F6AC006B088A /* main.m */; };
+		A3521D4F1345F6AC006B088A /* LegisTotalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D4E1345F6AC006B088A /* LegisTotalAppDelegate.m */; };
+		A3521D521345F6AC006B088A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3521D501345F6AC006B088A /* MainWindow.xib */; };
+		A3521D5C1345FBCB006B088A /* LeisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D5A1345FBCB006B088A /* LeisTableViewController.m */; };
+		A3521D5D1345FBCB006B088A /* LeisTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3521D5B1345FBCB006B088A /* LeisTableViewController.xib */; };
+		A3521D621345FD15006B088A /* TipoLeisTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D601345FD15006B088A /* TipoLeisTableViewController.m */; };
+		A3521D631345FD15006B088A /* TipoLeisTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3521D611345FD15006B088A /* TipoLeisTableViewController.xib */; };
+		A3521D681346007D006B088A /* Conexao.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D671346007D006B088A /* Conexao.m */; };
+		A3521D6E13460135006B088A /* LegisTotal.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D6D13460135006B088A /* LegisTotal.m */; };
+		A3521D72134602DA006B088A /* TipoLeis.m in Sources */ = {isa = PBXBuildFile; fileRef = A3521D71134602DA006B088A /* TipoLeis.m */; };
+		A3882CDD134DDB2500BCC291 /* balance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3882CDB134DDB2500BCC291 /* balance@2x.png */; };
+		A3882CDE134DDB2500BCC291 /* balance.png in Resources */ = {isa = PBXBuildFile; fileRef = A3882CDC134DDB2500BCC291 /* balance.png */; };
+		A3882CFD134DE03700BCC291 /* FilhosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3882CFB134DE03700BCC291 /* FilhosTableViewController.m */; };
+		A3882CFE134DE03700BCC291 /* FilhosTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3882CFC134DE03700BCC291 /* FilhosTableViewController.xib */; };
+		A3882D83134DEDAD00BCC291 /* ViewWithWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3882D81134DEDAD00BCC291 /* ViewWithWebViewController.m */; };
+		A3882D84134DEDAD00BCC291 /* ViewWithWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3882D82134DEDAD00BCC291 /* ViewWithWebViewController.xib */; };
+		A3C6478C136BB599004644F8 /* imagem.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C6478B136BB599004644F8 /* imagem.png */; };
+		A3C6478E136BB6A2004644F8 /* imagem@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3C6478D136BB6A2004644F8 /* imagem@2x.png */; };
+		A3C64791136C3F6C004644F8 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C64790136C3F6C004644F8 /* CustomCell.m */; };
+		A3C64794136C3F7F004644F8 /* CustomCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C64792136C3F7F004644F8 /* CustomCell1.xib */; };
+		A3C64799136C5014004644F8 /* CustomCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C64798136C5014004644F8 /* CustomCell2.xib */; };
+		A3C9A5E2136C60550029B948 /* CustomCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A5E1136C60550029B948 /* CustomCell3.xib */; };
+		A3FC8F26135DC7700052BB07 /* RemissivoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FC8F23135DC7700052BB07 /* RemissivoTableViewController.xib */; };
+		A3FC8F27135DC7700052BB07 /* RemissivoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FC8F25135DC7700052BB07 /* RemissivoTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A331020713460FD600327F7D /* legisTotal.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = legisTotal.sqlite; sourceTree = "<group>"; };
+		A3511465134605F800532CB6 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A3521D3A1345F6AC006B088A /* LegisTotal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegisTotal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3521D3E1345F6AC006B088A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3521D401345F6AC006B088A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3521D421345F6AC006B088A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3521D461345F6AC006B088A /* LegisTotal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LegisTotal-Info.plist"; sourceTree = "<group>"; };
+		A3521D481345F6AC006B088A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3521D4A1345F6AC006B088A /* LegisTotal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LegisTotal-Prefix.pch"; sourceTree = "<group>"; };
+		A3521D4B1345F6AC006B088A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3521D4D1345F6AC006B088A /* LegisTotalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegisTotalAppDelegate.h; sourceTree = "<group>"; };
+		A3521D4E1345F6AC006B088A /* LegisTotalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LegisTotalAppDelegate.m; sourceTree = "<group>"; };
+		A3521D511345F6AC006B088A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A3521D591345FBCB006B088A /* LeisTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeisTableViewController.h; sourceTree = "<group>"; };
+		A3521D5A1345FBCB006B088A /* LeisTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeisTableViewController.m; sourceTree = "<group>"; };
+		A3521D5B1345FBCB006B088A /* LeisTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeisTableViewController.xib; sourceTree = "<group>"; };
+		A3521D5F1345FD15006B088A /* TipoLeisTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoLeisTableViewController.h; sourceTree = "<group>"; };
+		A3521D601345FD15006B088A /* TipoLeisTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoLeisTableViewController.m; sourceTree = "<group>"; };
+		A3521D611345FD15006B088A /* TipoLeisTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipoLeisTableViewController.xib; sourceTree = "<group>"; };
+		A3521D661346007D006B088A /* Conexao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conexao.h; sourceTree = "<group>"; };
+		A3521D671346007D006B088A /* Conexao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conexao.m; sourceTree = "<group>"; };
+		A3521D6C13460135006B088A /* LegisTotal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LegisTotal.h; sourceTree = "<group>"; };
+		A3521D6D13460135006B088A /* LegisTotal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LegisTotal.m; sourceTree = "<group>"; };
+		A3521D70134602DA006B088A /* TipoLeis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipoLeis.h; sourceTree = "<group>"; };
+		A3521D71134602DA006B088A /* TipoLeis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipoLeis.m; sourceTree = "<group>"; };
+		A3882CDB134DDB2500BCC291 /* balance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balance@2x.png"; sourceTree = "<group>"; };
+		A3882CDC134DDB2500BCC291 /* balance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance.png; sourceTree = "<group>"; };
+		A3882CFA134DE03700BCC291 /* FilhosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilhosTableViewController.h; sourceTree = "<group>"; };
+		A3882CFB134DE03700BCC291 /* FilhosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilhosTableViewController.m; sourceTree = "<group>"; };
+		A3882CFC134DE03700BCC291 /* FilhosTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilhosTableViewController.xib; sourceTree = "<group>"; };
+		A3882D80134DEDAD00BCC291 /* ViewWithWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewWithWebViewController.h; sourceTree = "<group>"; };
+		A3882D81134DEDAD00BCC291 /* ViewWithWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewWithWebViewController.m; sourceTree = "<group>"; };
+		A3882D82134DEDAD00BCC291 /* ViewWithWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewWithWebViewController.xib; sourceTree = "<group>"; };
+		A3C6478B136BB599004644F8 /* imagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imagem.png; sourceTree = "<group>"; };
+		A3C6478D136BB6A2004644F8 /* imagem@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagem@2x.png"; sourceTree = "<group>"; };
+		A3C6478F136C3F6B004644F8 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		A3C64790136C3F6C004644F8 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		A3C64792136C3F7F004644F8 /* CustomCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell1.xib; sourceTree = "<group>"; };
+		A3C64798136C5014004644F8 /* CustomCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell2.xib; sourceTree = "<group>"; };
+		A3C9A5E1136C60550029B948 /* CustomCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell3.xib; sourceTree = "<group>"; };
+		A3FC8F23135DC7700052BB07 /* RemissivoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemissivoTableViewController.xib; sourceTree = "<group>"; };
+		A3FC8F24135DC7700052BB07 /* RemissivoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemissivoTableViewController.h; sourceTree = "<group>"; };
+		A3FC8F25135DC7700052BB07 /* RemissivoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemissivoTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3521D371345F6AB006B088A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3521D3F1345F6AC006B088A /* UIKit.framework in Frameworks */,
+				A3521D411345F6AC006B088A /* Foundation.framework in Frameworks */,
+				A3521D431345F6AC006B088A /* CoreGraphics.framework in Frameworks */,
+				A3511466134605F800532CB6 /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3521D2F1345F6AB006B088A = {
+			isa = PBXGroup;
+			children = (
+				A3521D441345F6AC006B088A /* LegisTotal */,
+				A3521D3D1345F6AC006B088A /* Frameworks */,
+				A3521D3B1345F6AC006B088A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3521D3B1345F6AC006B088A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3521D3A1345F6AC006B088A /* LegisTotal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3521D3D1345F6AC006B088A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3521D3E1345F6AC006B088A /* UIKit.framework */,
+				A3521D401345F6AC006B088A /* Foundation.framework */,
+				A3521D421345F6AC006B088A /* CoreGraphics.framework */,
+				A3511465134605F800532CB6 /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3521D441345F6AC006B088A /* LegisTotal */ = {
+			isa = PBXGroup;
+			children = (
+				A3521D581345F6C8006B088A /* Classes */,
+				A3521D4D1345F6AC006B088A /* LegisTotalAppDelegate.h */,
+				A3521D4E1345F6AC006B088A /* LegisTotalAppDelegate.m */,
+				A3521D501345F6AC006B088A /* MainWindow.xib */,
+				A3521D451345F6AC006B088A /* Supporting Files */,
+			);
+			path = LegisTotal;
+			sourceTree = "<group>";
+		};
+		A3521D451345F6AC006B088A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C6478D136BB6A2004644F8 /* imagem@2x.png */,
+				A3C6478B136BB599004644F8 /* imagem.png */,
+				A3882CDB134DDB2500BCC291 /* balance@2x.png */,
+				A3882CDC134DDB2500BCC291 /* balance.png */,
+				A3521D461345F6AC006B088A /* LegisTotal-Info.plist */,
+				A3521D471345F6AC006B088A /* InfoPlist.strings */,
+				A3521D4A1345F6AC006B088A /* LegisTotal-Prefix.pch */,
+				A3521D4B1345F6AC006B088A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3521D581345F6C8006B088A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3C9A5E1136C60550029B948 /* CustomCell3.xib */,
+				A3C64798136C5014004644F8 /* CustomCell2.xib */,
+				A3C64792136C3F7F004644F8 /* CustomCell1.xib */,
+				A3C6478F136C3F6B004644F8 /* CustomCell.h */,
+				A3C64790136C3F6C004644F8 /* CustomCell.m */,
+				A3521D6F13460148006B088A /* Model */,
+				A3521D6913460083006B088A /* Db */,
+				A3521D5E1345FBD2006B088A /* View */,
+			);
+			name = Classes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A3521D5E1345FBD2006B088A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3521D651345FF11006B088A /* TipoLeis */,
+				A3521D641345FEFD006B088A /* Leis */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A3521D641345FEFD006B088A /* Leis */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC8F23135DC7700052BB07 /* RemissivoTableViewController.xib */,
+				A3FC8F24135DC7700052BB07 /* RemissivoTableViewController.h */,
+				A3FC8F25135DC7700052BB07 /* RemissivoTableViewController.m */,
+				A3882D85134DEDB200BCC291 /* Artigos */,
+				A3521D591345FBCB006B088A /* LeisTableViewController.h */,
+				A3521D5A1345FBCB006B088A /* LeisTableViewController.m */,
+				A3521D5B1345FBCB006B088A /* LeisTableViewController.xib */,
+				A3882CFA134DE03700BCC291 /* FilhosTableViewController.h */,
+				A3882CFB134DE03700BCC291 /* FilhosTableViewController.m */,
+				A3882CFC134DE03700BCC291 /* FilhosTableViewController.xib */,
+			);
+			name = Leis;
+			sourceTree = "<group>";
+		};
+		A3521D651345FF11006B088A /* TipoLeis */ = {
+			isa = PBXGroup;
+			children = (
+				A3521D5F1345FD15006B088A /* TipoLeisTableViewController.h */,
+				A3521D601345FD15006B088A /* TipoLeisTableViewController.m */,
+				A3521D611345FD15006B088A /* TipoLeisTableViewController.xib */,
+			);
+			name = TipoLeis;
+			sourceTree = "<group>";
+		};
+		A3521D6913460083006B088A /* Db */ = {
+			isa = PBXGroup;
+			children = (
+				A331020713460FD600327F7D /* legisTotal.sqlite */,
+				A3521D661346007D006B088A /* Conexao.h */,
+				A3521D671346007D006B088A /* Conexao.m */,
+			);
+			name = Db;
+			sourceTree = "<group>";
+		};
+		A3521D6F13460148006B088A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A3521D70134602DA006B088A /* TipoLeis.h */,
+				A3521D71134602DA006B088A /* TipoLeis.m */,
+				A3521D6C13460135006B088A /* LegisTotal.h */,
+				A3521D6D13460135006B088A /* LegisTotal.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A3882D85134DEDB200BCC291 /* Artigos */ = {
+			isa = PBXGroup;
+			children = (
+				A3882D80134DEDAD00BCC291 /* ViewWithWebViewController.h */,
+				A3882D81134DEDAD00BCC291 /* ViewWithWebViewController.m */,
+				A3882D82134DEDAD00BCC291 /* ViewWithWebViewController.xib */,
+			);
+			name = Artigos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3521D391345F6AB006B088A /* LegisTotal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3521D551345F6AC006B088A /* Build configuration list for PBXNativeTarget "LegisTotal" */;
+			buildPhases = (
+				A3521D361345F6AB006B088A /* Sources */,
+				A3521D371345F6AB006B088A /* Frameworks */,
+				A3521D381345F6AB006B088A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LegisTotal;
+			productName = LegisTotal;
+			productReference = A3521D3A1345F6AC006B088A /* LegisTotal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3521D311345F6AB006B088A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A3521D341345F6AB006B088A /* Build configuration list for PBXProject "LegisTotal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3521D2F1345F6AB006B088A;
+			productRefGroup = A3521D3B1345F6AC006B088A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3521D391345F6AB006B088A /* LegisTotal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3521D381345F6AB006B088A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3521D491345F6AC006B088A /* InfoPlist.strings in Resources */,
+				A3521D521345F6AC006B088A /* MainWindow.xib in Resources */,
+				A3521D5D1345FBCB006B088A /* LeisTableViewController.xib in Resources */,
+				A3521D631345FD15006B088A /* TipoLeisTableViewController.xib in Resources */,
+				A331020813460FD600327F7D /* legisTotal.sqlite in Resources */,
+				A3882CDD134DDB2500BCC291 /* balance@2x.png in Resources */,
+				A3882CDE134DDB2500BCC291 /* balance.png in Resources */,
+				A3882CFE134DE03700BCC291 /* FilhosTableViewController.xib in Resources */,
+				A3882D84134DEDAD00BCC291 /* ViewWithWebViewController.xib in Resources */,
+				A3FC8F26135DC7700052BB07 /* RemissivoTableViewController.xib in Resources */,
+				A3C6478C136BB599004644F8 /* imagem.png in Resources */,
+				A3C6478E136BB6A2004644F8 /* imagem@2x.png in Resources */,
+				A3C64794136C3F7F004644F8 /* CustomCell1.xib in Resources */,
+				A3C64799136C5014004644F8 /* CustomCell2.xib in Resources */,
+				A3C9A5E2136C60550029B948 /* CustomCell3.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3521D361345F6AB006B088A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3521D4C1345F6AC006B088A /* main.m in Sources */,
+				A3521D4F1345F6AC006B088A /* LegisTotalAppDelegate.m in Sources */,
+				A3521D5C1345FBCB006B088A /* LeisTableViewController.m in Sources */,
+				A3521D621345FD15006B088A /* TipoLeisTableViewController.m in Sources */,
+				A3521D681346007D006B088A /* Conexao.m in Sources */,
+				A3521D6E13460135006B088A /* LegisTotal.m in Sources */,
+				A3521D72134602DA006B088A /* TipoLeis.m in Sources */,
+				A3882CFD134DE03700BCC291 /* FilhosTableViewController.m in Sources */,
+				A3882D83134DEDAD00BCC291 /* ViewWithWebViewController.m in Sources */,
+				A3FC8F27135DC7700052BB07 /* RemissivoTableViewController.m in Sources */,
+				A3C64791136C3F6C004644F8 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3521D471345F6AC006B088A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3521D481345F6AC006B088A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3521D501345F6AC006B088A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3521D511345F6AC006B088A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3521D531345F6AC006B088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3521D541345F6AC006B088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		A3521D561345F6AC006B088A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LegisTotal/LegisTotal-Prefix.pch";
+				INFOPLIST_FILE = "LegisTotal/LegisTotal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3521D571345F6AC006B088A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LegisTotal/LegisTotal-Prefix.pch";
+				INFOPLIST_FILE = "LegisTotal/LegisTotal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3521D341345F6AB006B088A /* Build configuration list for PBXProject "LegisTotal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3521D531345F6AC006B088A /* Debug */,
+				A3521D541345F6AC006B088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3521D551345F6AC006B088A /* Build configuration list for PBXNativeTarget "LegisTotal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3521D561345F6AC006B088A /* Debug */,
+				A3521D571345F6AC006B088A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3521D311345F6AB006B088A /* Project object */;
+}
