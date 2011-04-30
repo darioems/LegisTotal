@@ -39,14 +39,26 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    remissivo = [LegisTotal getAllLeis];
 	
 	LegisTotal *lei = [[LegisTotal alloc] init];
-	
-	lei = [remissivo objectAtIndex:0];
-	
-	allFilhos = [LegisTotal getAllFilhosWithIdLegis:lei.idLegis];
+    
+    remissivo = [LegisTotal getAllWithIdTipo:(int *)1];
+    
+    int i,j;
+    
+    for (i = 0; i < [remissivo count]; i++) {
+        lei = [remissivo objectAtIndex:i];
+        
+        allFilhos = [LegisTotal getAllFilhosWithIdLegis:lei.idLegis];
+        
+        NSLog(@"lei: %@", lei.descricao);
+        
+        for (j = 0; j < [allFilhos count]; j++) {
+            LegisTotal *filho = [allFilhos objectAtIndex:j];
+            NSLog(@"allFihos: %@", filho.descricao);
+        }
+        
+    }
     
     [super setTitle:@"Remissivo"];
 

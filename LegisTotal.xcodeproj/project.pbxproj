@@ -35,6 +35,8 @@
 		A3C64794136C3F7F004644F8 /* CustomCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C64792136C3F7F004644F8 /* CustomCell1.xib */; };
 		A3C64799136C5014004644F8 /* CustomCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C64798136C5014004644F8 /* CustomCell2.xib */; };
 		A3C9A5E2136C60550029B948 /* CustomCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3C9A5E1136C60550029B948 /* CustomCell3.xib */; };
+		A3EAE81F136C87D00030E656 /* listaleis.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EAE81D136C87D00030E656 /* listaleis.png */; };
+		A3EAE820136C87D00030E656 /* listaleis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EAE81E136C87D00030E656 /* listaleis@2x.png */; };
 		A3FC8F26135DC7700052BB07 /* RemissivoTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3FC8F23135DC7700052BB07 /* RemissivoTableViewController.xib */; };
 		A3FC8F27135DC7700052BB07 /* RemissivoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FC8F25135DC7700052BB07 /* RemissivoTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -80,6 +82,8 @@
 		A3C64792136C3F7F004644F8 /* CustomCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell1.xib; sourceTree = "<group>"; };
 		A3C64798136C5014004644F8 /* CustomCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell2.xib; sourceTree = "<group>"; };
 		A3C9A5E1136C60550029B948 /* CustomCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell3.xib; sourceTree = "<group>"; };
+		A3EAE81D136C87D00030E656 /* listaleis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = listaleis.png; sourceTree = "<group>"; };
+		A3EAE81E136C87D00030E656 /* listaleis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "listaleis@2x.png"; sourceTree = "<group>"; };
 		A3FC8F23135DC7700052BB07 /* RemissivoTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemissivoTableViewController.xib; sourceTree = "<group>"; };
 		A3FC8F24135DC7700052BB07 /* RemissivoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemissivoTableViewController.h; sourceTree = "<group>"; };
 		A3FC8F25135DC7700052BB07 /* RemissivoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemissivoTableViewController.m; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 		A3521D451345F6AC006B088A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A3EAE81D136C87D00030E656 /* listaleis.png */,
+				A3EAE81E136C87D00030E656 /* listaleis@2x.png */,
 				A3C6478D136BB6A2004644F8 /* imagem@2x.png */,
 				A3C6478B136BB599004644F8 /* imagem.png */,
 				A3882CDB134DDB2500BCC291 /* balance@2x.png */,
@@ -300,6 +306,8 @@
 				A3C64794136C3F7F004644F8 /* CustomCell1.xib in Resources */,
 				A3C64799136C5014004644F8 /* CustomCell2.xib in Resources */,
 				A3C9A5E2136C60550029B948 /* CustomCell3.xib in Resources */,
+				A3EAE81F136C87D00030E656 /* listaleis.png in Resources */,
+				A3EAE820136C87D00030E656 /* listaleis@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -32,4 +32,11 @@
 // Busca todos Filhos
 +(NSMutableArray*)getAllFilhosWithIdLegis:(int *)idLegisAux;
 
+// Busca pelo Tipo
++(NSMutableArray*)getAllWithIdTipo:(int *)idTipoAux;
+
+// Monta o índice da Lei
++(NSMutableArray*)getIndiceWithIdLegis:(int *)idLegisAux;
+
+
 @end

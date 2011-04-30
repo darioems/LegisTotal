@@ -140,7 +140,7 @@
 	cell.titulo.text = legisAux.descricao;
 	cell.subtitulo.text = legisAux.texto;
 	cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do 1 ao %i",tipoLeiAux.tipo, [allFilhos count]];
-	cell.imagem.image = [UIImage imageNamed:@"balance.png"];
+	cell.imagem.image = [UIImage imageNamed:@"listaleis.png"];
     
     return cell;
     
