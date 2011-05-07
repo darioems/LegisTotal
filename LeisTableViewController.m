@@ -133,13 +133,27 @@
     
     NSMutableArray *allFilhos = [LegisTotal getAllFilhosWithIdLegis:legisAux.idLegis];
     
-    LegisTotal *filhoTemp = [allFilhos objectAtIndex:0];
+    LegisTotal *firstFilhoAux = [allFilhos objectAtIndex:0];
     
-    TipoLeis *tipoLeiAux = [TipoLeis getTiposWithIdTipo:filhoTemp.idTipo];
+    LegisTotal *lastFilhoAux = [allFilhos objectAtIndex:[allFilhos count]-1];
+    
+    TipoLeis *tipoLeiAux = [TipoLeis getTiposWithIdTipo:firstFilhoAux.idTipo];
 	
 	cell.titulo.text = legisAux.descricao;
 	cell.subtitulo.text = legisAux.texto;
-	cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do 1 ao %i",tipoLeiAux.tipo, [allFilhos count]];
+    
+    switch ((int)firstFilhoAux.idTipo) {
+        case 14:
+            cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do %@ ao %@", tipoLeiAux.tipo, [firstFilhoAux.descricao substringFromIndex:9], [lastFilhoAux.descricao substringFromIndex:9]];
+            break;
+            
+        case 17:
+            cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do %@ ao %@", tipoLeiAux.tipo, [firstFilhoAux.descricao substringFromIndex:5], [lastFilhoAux.descricao substringFromIndex:5]];
+            break;
+        default:
+            cell.conteudo.text = @"" ;
+            break;
+    }
 	cell.imagem.image = [UIImage imageNamed:@"listaleis.png"];
     
     return cell;

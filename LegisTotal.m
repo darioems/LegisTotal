@@ -215,55 +215,5 @@
     
 }
 
-// Monta o índice da Lei
-+(NSMutableArray*)getIndiceWithIdLegis:(int *)idLegisAux {
-    
-    Conexao *c = [[Conexao alloc] init];
-	sqlite3 *database = [c getDatabase];
-	[c release];
-	
-	NSMutableArray *allLegisIdTipo = [[NSMutableArray alloc] init];
-	
-	if (database != nil) {
-		
-		const char *sqlStatement ="SELECT * FROM legisTotal WHERE idTipo = ?";
-		
-		sqlite3_stmt *compiledStatement;
-        
-		if (sqlite3_prepare_v2(database, sqlStatement, -1, &compiledStatement, NULL) == SQLITE_OK) {
-			
-			sqlite3_bind_int(compiledStatement, 1, (int)idLegisAux);
-            
-			LegisTotal *legis = nil;
-			
-            
-			while (sqlite3_step(compiledStatement) == SQLITE_ROW) {
-                
-				int *idLegisAux = (int *) sqlite3_column_int(compiledStatement, 0);
-   				int *idTipoAux = (int *) sqlite3_column_int(compiledStatement, 1);
-                int *idPaiAux = (int *) sqlite3_column_int(compiledStatement, 2);
-				NSString *descricaoAux = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 3)];	
-				NSString *textoAux = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 4)];	
-				
-				legis = [[LegisTotal alloc] init];
-                
-				[legis setIdLegis:idLegisAux];
-                [legis setIdTipo:idTipoAux];
-                [legis setIdPai:idPaiAux];
-                [legis setDescricao:descricaoAux];
-                [legis setTexto:textoAux];
-                
-				[allLegisIdTipo addObject:legis];
-				
-			}
-			
-		}
-		sqlite3_finalize(compiledStatement);
-		sqlite3_close(database);
-		
-	}
-	
-	return allLegisIdTipo;
-}
 
 @end

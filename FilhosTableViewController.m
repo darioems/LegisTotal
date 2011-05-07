@@ -69,31 +69,6 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    /*static NSString *CellIdentifier = @"Cell";
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
-    }
-    
-    // Configure the cell...
-	
-	LegisTotal *filhoAux = [allFilhos objectAtIndex:indexPath.row];
-	
-	if ((int) filhoAux.idTipo != 17) {
-		cell.textLabel.text = filhoAux.descricao;
-        cell.textLabel.font = [UIFont boldSystemFontOfSize:20];
-        cell.detailTextLabel.text = filhoAux.texto;
-        cell.detailTextLabel.font = [UIFont boldSystemFontOfSize:10];
-        
-	}
-	else {
-		cell.textLabel.text = filhoAux.descricao;
-	}
-
-    
-    return cell;*/
-    
     //********************//
 	//Celulas customizadas com XIB
 	static NSString *CellIdentifier = @"CustomCell";
@@ -106,7 +81,7 @@
 		for (id currentObject in topLevelObjects){
 			if ([currentObject isKindOfClass:[UITableViewCell class]]){
 				cell =  (CustomCell *) currentObject;
-                [cell setAccessoryType:UITableViewCellAccessoryDetailDisclosureButton];
+                [cell setAccessoryType:UITableViewCellAccessoryDisclosureIndicator];
 				break;
 			}
 		}
@@ -121,13 +96,34 @@
         NSMutableArray *allFilhosAux = [LegisTotal getAllFilhosWithIdLegis:filhoAux.idLegis];
         
         
-        LegisTotal *tipoFilhoAux = [allFilhosAux objectAtIndex:0];
+        LegisTotal *firstFilhoAux = [allFilhosAux objectAtIndex:0];
         
-        TipoLeis *tipoLeiAux = [TipoLeis getTiposWithIdTipo:tipoFilhoAux.idTipo];
+        LegisTotal *lastFilhoAux = [allFilhosAux objectAtIndex:[allFilhosAux count]-1];
+        
+        TipoLeis *tipoLeiAux = [TipoLeis getTiposWithIdTipo:firstFilhoAux.idTipo];
         
 		cell.titulo.text = filhoAux.descricao;
         cell.subtitulo.text = filhoAux.texto;
-        cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do 1 ao %i",tipoLeiAux.tipo, [allFilhos count]];
+        
+        switch ((int)firstFilhoAux.idTipo) {
+            case 14:
+                cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do %@ ao %@", tipoLeiAux.tipo, [firstFilhoAux.descricao substringFromIndex:9], [lastFilhoAux.descricao substringFromIndex:9]];
+                break;
+                
+            case 17:
+                cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ do %@ ao %@", tipoLeiAux.tipo, [firstFilhoAux.descricao substringFromIndex:5], [lastFilhoAux.descricao substringFromIndex:5]];
+                break;
+            case 16:
+                cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@ de %@ à %@", tipoLeiAux.tipo, [firstFilhoAux.descricao substringFromIndex:6], [lastFilhoAux.descricao substringFromIndex:6]];
+                break;
+            default:
+                cell.conteudo.text = @"" ;
+                break;
+        }
+        
+        
+        /*cell.conteudo.text = [[NSString alloc] initWithFormat: @"%@: %@ - %@", tipoLeiAux.tipo, [firstFilhoAux.descricao substringFromIndex:5], [lastFilhoAux.descricao substringFromIndex:5]];*/
+        
         
 	}
 	else {

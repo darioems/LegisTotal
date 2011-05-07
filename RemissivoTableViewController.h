@@ -15,6 +15,10 @@
     
     NSMutableArray *remissivo;
     NSMutableArray *allFilhos;
+    NSMutableArray *indiceCompleto;
 }
+
+// Monta o índice da Lei
+-(void)getIndiceWithIdLegis:(int *)idLegisAux;
 
 @end

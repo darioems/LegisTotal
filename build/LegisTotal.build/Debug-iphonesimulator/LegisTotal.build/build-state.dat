@@ -1,0 +1,1239 @@
+TLegisTotal
+v7
+r0
+t326335985.890026
+cCheck dependencies
+cProcessInfoPlistFile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/Info.plist LegisTotal/LegisTotal-Info.plist
+cProcessPCH /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch.gch LegisTotal/LegisTotal-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/main.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotalAppDelegate.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/FilhosTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/ViewWithWebViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/RemissivoTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/CustomCell.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal normal i386
+cGenerateDSYMFile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app.dSYM /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal
+cCopyStringsFile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj/InfoPlist.strings LegisTotal/en.lproj/InfoPlist.strings
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/MainWindow.xib
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.xib
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.xib
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/legisTotal.sqlite LegisTotal/../legisTotal.sqlite
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/balance@2x.png LegisTotal/balance@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/balance.png LegisTotal/balance.png
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.xib
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.xib
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.xib
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/imagem.png LegisTotal/imagem.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/imagem@2x.png LegisTotal/imagem@2x.png
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell1.xib
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell2.xib
+cCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell3.xib
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/listaleis.png LegisTotal/listaleis.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/listaleis@2x.png LegisTotal/listaleis@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/balanceTab@2x.png LegisTotal/balanceTab@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/indice.png LegisTotal/indice.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/indice@2x.png LegisTotal/indice@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/type.png LegisTotal/type.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/type@2x.png LegisTotal/type@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/favs.png LegisTotal/favs.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/favs@2x.png LegisTotal/favs@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/pesquisa.png LegisTotal/pesquisa.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/pesquisa@2x.png LegisTotal/pesquisa@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/about.png LegisTotal/about.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/about@2x.png LegisTotal/about@2x.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/info.png LegisTotal/info.png
+cCpResource build/Debug-iphonesimulator/LegisTotal.app/info@2x.png LegisTotal/info@2x.png
+cTouch /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app
+
+N/Users/dario/Documents/Iphone/LegisTotal/Conexao.h
+c000000004D89DC9B0000000000000102
+t1300880539
+s258
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/Conexao.m
+c000000004D95C95D0000000000000360
+t1301662045
+s864
+i"Conexao.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/CustomCell.h
+c000000004DBF55AE0000000000000288
+t1304384942
+s648
+i<UIKit/UIKit.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/FilhosTableViewController.h
+c000000004DBC2F910000000000000170
+t1304178577
+s368
+i<UIKit/UIKit.h>
+i"LegisTotal.h"
+i"TipoLeis.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal.h
+c000000004DBC5A1200000000000002D9
+t1304189458
+s729
+i<Foundation/Foundation.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m
+c000000004D95C95D0000000000000360
+t1301662045
+s864
+i"Conexao.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m
+c000000004DBF56070000000000000371
+t1304385031
+s881
+i"CustomCell.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell1.xib
+c000000004DBC223F0000000000003D2E
+t1304175167
+s15662
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell2.xib
+c000000004DBC281E000000000000417E
+t1304176670
+s16766
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell3.xib
+c000000004DBC36E30000000000003CC3
+t1304180451
+s15555
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m
+c000000004DBCB845000000000000156F
+t1304213573
+s5487
+i"FilhosTableViewController.h"
+i"ViewWithWebViewController.h"
+i"CustomCell.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.xib
+c000000004D9DA8B70000000000001C96
+t1302177975
+s7318
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m
+c000000004DBC59CD00000000000018E2
+t1304189389
+s6370
+i"LegisTotal.h"
+i"Conexao.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.h
+c000000004DBC2F6C000000000000014F
+t1304178540
+s335
+i<UIKit/UIKit.h>
+i"LegisTotal.h"
+i"TipoLeis.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m
+c000000004DBC863C0000000000001302
+t1304200764
+s4866
+i"LeisTableViewController.h"
+i"CustomCell.h"
+i"FilhosTableViewController.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.xib
+c000000004D89F3070000000000001CA2
+t1300886279
+s7330
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewControlle.xib
+c000000004D89F3070000000000001CA2
+t1300886279
+s7330
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.h
+c000000004DBC5F8600000000000001C8
+t1304190854
+s456
+i<UIKit/UIKit.h>
+i"LegisTotal.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m
+c000000004DBC6DA6000000000000120B
+t1304194470
+s4619
+i"RemissivoTableViewController.h"
+i"ViewWithWebViewController.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.xib
+c000000004D89F3070000000000001CA2
+t1300886279
+s7330
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m
+c000000004D95D86D0000000000000B97
+t1301665901
+s2967
+i"TipoLeis.h"
+i"Conexao.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.h
+c000000004D95CB3E000000000000013B
+t1301662526
+s315
+i<UIKit/UIKit.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m
+c000000004D95D90300000000000011B7
+t1301666051
+s4535
+i"TipoLeisTableViewController.h"
+i"TipoLeis.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.xib
+c000000004D89E24B0000000000001CAE
+t1300881995
+s7342
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m
+c000000004DAFAC1E00000000000006BA
+t1303358494
+s1722
+i"ViewWithWebViewController.h"
+i"LegisTotal.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.xib
+c000000004D8A45F90000000000002149
+t1300907513
+s8521
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../legisTotal.sqlite
+c000000004D9DC1DE00000000000CB400
+t1302184414
+s832512
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotal-Prefix.pch
+c000000004D95BF2C0000000000000146
+t1301659436
+s326
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.h
+c000000004D95C3130000000000000168
+t1301660435
+s360
+i<UIKit/UIKit.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m
+c000000004DBCBB230000000000001904
+t1304214307
+s6404
+i"LegisTotalAppDelegate.h"
+i"LeisTableViewController.h"
+i"TipoLeisTableViewController.h"
+i"RemissivoTableViewController.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/about.png
+c000000004DBC9EAD0000000000000A83
+t1304207021
+s2691
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/about@2x.png
+c000000004DBC9E9F0000000000001AC5
+t1304207007
+s6853
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balance.png
+c000000004D89DB7400000000000015B8
+t1300880244
+s5560
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balance@2x.png
+c000000004D89DA720000000000003187
+t1300879986
+s12679
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balanceTab@2x.png
+c000000004DBC73FD000000000000184B
+t1304196093
+s6219
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/InfoPlist.strings
+c000000004D95BF2C000000000000002D
+t1301659436
+s45
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/MainWindow.xib
+c000000004D95BF2C000000000000210F
+t1301659436
+s8463
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/favs.png
+c000000004DBC89920000000000000B67
+t1304201618
+s2919
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/favs@2x.png
+c000000004DBC897E0000000000001C3A
+t1304201598
+s7226
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/imagem.png
+c000000004DBB7EFF0000000000000C39
+t1304133375
+s3129
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/imagem@2x.png
+c000000004DBB7EEA0000000000001C76
+t1304133354
+s7286
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/indice.png
+c000000004DBC85FD0000000000000B15
+t1304200701
+s2837
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/indice@2x.png
+c000000004DBC85E900000000000019A4
+t1304200681
+s6564
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/info.png
+c000000004DBCBAD2000000000000050B
+t1304214226
+s1291
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/info@2x.png
+c000000004C966FF800000000000005AE
+t1284927480
+s1454
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/listaleis.png
+c000000004DBC50210000000000001460
+t1304186913
+s5216
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/listaleis@2x.png
+c000000004DBC500E0000000000002835
+t1304186894
+s10293
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m
+c000000004D95BF2C0000000000000161
+t1301659436
+s353
+i<UIKit/UIKit.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/pesquisa.png
+c000000004DBC974C0000000000001047
+t1304205132
+s4167
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/pesquisa@2x.png
+c000000004DBC97370000000000001B67
+t1304205111
+s7015
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/type.png
+c000000004DBC84A70000000000000543
+t1304200359
+s1347
+
+N/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/type@2x.png
+c000000004DBC84980000000000000647
+t1304200344
+s1607
+
+N/Users/dario/Documents/Iphone/LegisTotal/Leis.h
+c000000004D95CA3E0000000000000243
+t1301662270
+s579
+i<Foundation/Foundation.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/Leis.m
+c000000004D95CC960000000000000C9E
+t1301662870
+s3230
+i"Leis.h"
+i"Conexao.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.h
+c000000004DBC2F6C000000000000014F
+t1304178540
+s335
+i<UIKit/UIKit.h>
+i"LegisTotal.h"
+i"TipoLeis.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.m
+c000000004D95CF050000000000001511
+t1301663493
+s5393
+i"LeisTableViewController.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.xib
+c000000004D89F3070000000000001CA2
+t1300886279
+s7330
+
+N/Users/dario/Documents/Iphone/LegisTotal/RemissivoTableViewController.h
+c000000004DBC5F8600000000000001C8
+t1304190854
+s456
+i<UIKit/UIKit.h>
+i"LegisTotal.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/TipoLeis.h
+c000000004D95CB74000000000000021C
+t1301662580
+s540
+i<Foundation/Foundation.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/TipoLeis.m
+c000000004D95CBD40000000000000BBD
+t1301662676
+s3005
+i"TipoLeis.h"
+i"Conexao.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.h
+c000000004D95CB3E000000000000013B
+t1301662526
+s315
+i<UIKit/UIKit.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.m
+c000000004D95CAB7000000000000123F
+t1301662391
+s4671
+i"TipoLeisTableViewController.h"
+
+N/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.xib
+c000000004D89E24B0000000000001CAE
+t1300881995
+s7342
+
+N/Users/dario/Documents/Iphone/LegisTotal/ViewWithWebViewController.h
+c000000004D9DB7A900000000000001AA
+t1302181801
+s426
+i<UIKit/UIKit.h>
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app
+t1304643185
+s1190
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app.dSYM
+t1304643185
+s102
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/CustomCell1.nib
+t1304180059
+s3808
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/CustomCell2.nib
+t1304180059
+s3946
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/CustomCell3.nib
+t1304207082
+s3770
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/FilhosTableViewController.nib
+t1302179098
+s1516
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/Info.plist
+t1302177282
+s827
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal
+t1304643185
+s76324
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LeisTableViewController.nib
+t1302177284
+s1516
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/PkgInfo
+t1302177282
+s8
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/RemissivoTableViewControlle.nib
+t1303356019
+s1516
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/RemissivoTableViewController.nib
+t1303357310
+s1516
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/TipoLeisTableViewController.nib
+t1302177284
+s1516
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/ViewWithWebViewController.nib
+t1302181504
+s1596
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/about.png
+t1304207081
+s2691
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/about@2x.png
+t1304207081
+s6853
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/balance.png
+t1302177284
+s5560
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/balance@2x.png
+t1302177284
+s12679
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/balanceTab@2x.png
+t1304207081
+s6219
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj/InfoPlist.strings
+t1301663362
+s42
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj/MainWindow.nib
+t1301663362
+s1534
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/favs.png
+t1304207081
+s2919
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/favs@2x.png
+t1304207081
+s7226
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/imagem.png
+t1304180055
+s3129
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/imagem@2x.png
+t1304180055
+s7286
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/indice.png
+t1304207081
+s2837
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/indice@2x.png
+t1304207081
+s6564
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/info.png
+t1304268376
+s1291
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/info@2x.png
+t1304268376
+s1454
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/legisTotal.sqlite
+t1302196749
+s832512
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/listaleis.png
+t1304207081
+s5216
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/listaleis@2x.png
+t1304207081
+s10293
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/pesquisa.png
+t1304207081
+s4167
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/pesquisa@2x.png
+t1304207081
+s7015
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/type.png
+t1304207081
+s1347
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/type@2x.png
+t1304207081
+s1607
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o
+t1302177283
+s4276
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/CustomCell.o
+t1304643185
+s40996
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/FilhosTableViewController.o
+t1304384942
+s49648
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.LinkFileList
+c000000004DBC35540000000000000626
+t1304180052
+s1574
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.o
+t1304207081
+s20240
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotalAppDelegate.o
+t1304268374
+s60896
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Leis.o
+t1301663361
+s13172
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o
+t1304384942
+s47628
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/RemissivoTableViewController.o
+t1304207081
+s48084
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o
+t1302177284
+s11944
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o
+t1302177283
+s44332
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/ViewWithWebViewController.o
+t1304207081
+s40696
+
+N/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/main.o
+t1301663360
+s3100
+
+N/Users/dario/Documents/Iphone/LegisTotal/legisTotal.sqlite
+c000000004D95BC1E00000000000C3800
+t1301658654
+s800768
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/sqlite3.h
+c000000004D54CB5C0000000000045296
+t1297402716
+s283286
+
+N/Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libsqlite3.0.dylib
+c000000004D54CB720000000000099500
+t1297402738
+s627968
+
+N/var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch.gch
+t1301663360
+s12287408
+
+NLegisTotal/LegisTotal-Info.plist
+c000000004D9DA41D00000000000004AF
+t1302176797
+s1199
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies326335980#326335983#0(0"0(0#1#0"7021787118479564800#0"0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o /Users/dario/Documents/Iphone/LegisTotal/Conexao.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356161.095251
+e323356161.170461
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o
+x/Users/dario/Documents/Iphone/LegisTotal/Conexao.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@58"Compile /Users/dario/Documents/Iphone/LegisTotal/Conexao.m323356161#323356161#0(0"0(0#0#50"/Users/dario/Documents/Iphone/LegisTotal/Conexao.m8603448448#1985"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/Conexao.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323870083.852166
+e323870083.937337
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@72"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m323870083#323870083#0(0"0(0#0#64"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m8618334272#1999"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../Conexao.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Conexao.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/CustomCell.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s326335983.183941
+e326335985.084195
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/CustomCell.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m326335983#326335985#0(0"0(0#0#67"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m3414973617650413056#2005"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/CustomCell.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/FilhosTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s326077742.359819
+e326077742.592533
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/FilhosTableViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@90"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m326077742#326077742#0(0"0(0#0#82"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m8614324672#2035"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/FilhosTableViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325899881.037023
+e325899881.194840
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@75"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m325899881#325899881#0(0"0(0#0#67"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m8604073568#2005"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LegisTotal.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotalAppDelegate.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325961170.433376
+e325961174.828486
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotalAppDelegate.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m325961170#325961174#0(0"0(0#0#75"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m3414973617650413056#2024"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotalAppDelegate.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotalAppDelegate.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Leis.o /Users/dario/Documents/Iphone/LegisTotal/Leis.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356161.118873
+e323356161.197142
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Leis.o
+x/Users/dario/Documents/Iphone/LegisTotal/Leis.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@55"Compile /Users/dario/Documents/Iphone/LegisTotal/Leis.m323356161#323356161#0(0"0(0#0#47"/Users/dario/Documents/Iphone/LegisTotal/Leis.m8603045056#1979"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/Leis.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/Leis.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s326077742.357428
+e326077742.645982
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@88"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m326077742#326077742#0(0"0(0#0#80"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m8614443360#2031"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356299.645803
+e323356303.371313
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@74"Compile /Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.m323356299#323356303#0(0"0(0#0#66"/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.m8606088480#2017"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LeisTableViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/RemissivoTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325899881.196202
+e325899881.342668
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/RemissivoTableViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@93"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m325899881#325899881#0(0"0(0#0#85"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m8616360416#2041"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/RemissivoTableViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323870083.937434
+e323870084.011962
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@73"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m323870083#323870084#0(0"0(0#0#65"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m8613483488#2001"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeis.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o /Users/dario/Documents/Iphone/LegisTotal/TipoLeis.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356161.170569
+e323356161.246144
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o
+x/Users/dario/Documents/Iphone/LegisTotal/TipoLeis.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@59"Compile /Users/dario/Documents/Iphone/LegisTotal/TipoLeis.m323356161#323356161#0(0"0(0#0#51"/Users/dario/Documents/Iphone/LegisTotal/TipoLeis.m8602824704#1987"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/TipoLeis.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeis.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323870083.802146
+e323870083.912642
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@92"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m323870083#323870083#0(0"0(0#0#84"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m8618790592#2039"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o /Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356161.007642
+e323356161.118778
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.m323356161#323356161#0(0"0(0#0#70"/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.m8604801824#2025"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/TipoLeisTableViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/ViewWithWebViewController.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s325899881.194987
+e325899881.342293
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/ViewWithWebViewController.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@90"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m325899881#325899881#0(0"0(0#0#82"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m8617653824#2035"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/ViewWithWebViewController.o0#
+
+CCompileC build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/main.o /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356160.807122
+e323356160.985648
+r1
+xCompileC
+xbuild/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/main.o
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@66"Compile /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m323356160#323356160#0(0"0(0#0#58"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m8604790848#1990"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -include /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/main.m -o /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell1.xib
+s325872855.013586
+e325872859.341706
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell1.xib
+lSLF07#2@40"CompileXIB LegisTotal/../CustomCell1.xib325872855#325872859#0(0"0(0#0#70"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell1.xib8605576800#583"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/CustomCell1.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell1.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell2.xib
+s325872855.221360
+e325872859.341298
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell2.xib
+lSLF07#2@40"CompileXIB LegisTotal/../CustomCell2.xib325872855#325872859#0(0"0(0#0#70"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell2.xib8605926528#583"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/CustomCell2.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell2.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell3.xib
+s325899881.800058
+e325899882.240030
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell3.xib
+lSLF07#2@40"CompileXIB LegisTotal/../CustomCell3.xib325899881#325899882#0(0"0(0#0#70"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell3.xib8614186624#583"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/CustomCell3.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../CustomCell3.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.xib
+s323871898.208861
+e323871898.818214
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.xib
+lSLF07#2@54"CompileXIB LegisTotal/../FilhosTableViewController.xib323871898#323871898#0(0"0(0#0#84"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.xib8624043904#611"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/FilhosTableViewController.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../FilhosTableViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.xib
+s323870084.428283
+e323870084.850920
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.xib
+lSLF07#2@52"CompileXIB LegisTotal/../LeisTableViewController.xib323870084#323870084#0(0"0(0#0#82"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.xib8614908896#607"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LeisTableViewController.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../LeisTableViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewControlle.xib
+s325048818.674080
+e325048819.125114
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewControlle.xib
+lSLF07#2@56"CompileXIB LegisTotal/../RemissivoTableViewControlle.xib325048818#325048819#0(0"0(0#0#86"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewControlle.xib8608233920#615"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/RemissivoTableViewControlle.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewControlle.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.xib
+s325050108.776271
+e325050110.057430
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.xib
+lSLF07#2@57"CompileXIB LegisTotal/../RemissivoTableViewController.xib325050108#325050110#0(0"0(0#0#87"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.xib8610572992#617"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/RemissivoTableViewController.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../RemissivoTableViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.xib
+s323870084.428984
+e323870084.837530
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.xib
+lSLF07#2@56"CompileXIB LegisTotal/../TipoLeisTableViewController.xib323870084#323870084#0(0"0(0#0#86"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.xib8614615008#615"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/TipoLeisTableViewController.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../TipoLeisTableViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.xib
+s323874303.276067
+e323874304.158483
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.xib
+lSLF07#2@54"CompileXIB LegisTotal/../ViewWithWebViewController.xib323874303#323874304#0(0"0(0#0#84"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.xib8623479584#611"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/ViewWithWebViewController.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../ViewWithWebViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/MainWindow.xib
+s323356161.675332
+e323356162.389441
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/MainWindow.xib
+lSLF07#2@45"CompileXIB LegisTotal/en.lproj/MainWindow.xib323356161#323356162#0(0"0(0#0#75"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/MainWindow.xib8604895488#596"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj/MainWindow.nib /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/MainWindow.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.xib
+s323356162.176517
+e323356162.581767
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.xib
+lSLF07#2@38"CompileXIB LeisTableViewController.xib323356162#323356162#0(0"0(0#0#68"/Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.xib8605378688#593"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LeisTableViewController.nib /Users/dario/Documents/Iphone/LegisTotal/LeisTableViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB /Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.xib
+s323356162.389546
+e323356162.785835
+r1
+xCompileXIB
+x/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.xib
+lSLF07#2@42"CompileXIB TipoLeisTableViewController.xib323356162#323356162#0(0"0(0#0#72"/Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.xib8604937760#601"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/TipoLeisTableViewController.nib /Users/dario/Documents/Iphone/LegisTotal/TipoLeisTableViewController.xib --sdk /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCopyStringsFile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj/InfoPlist.strings LegisTotal/en.lproj/InfoPlist.strings
+s323356161.674452
+e323356162.176413
+r1
+xCopyStringsFile
+x/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj/InfoPlist.strings
+xLegisTotal/en.lproj/InfoPlist.strings
+lSLF07#2@42"Copy LegisTotal/en.lproj/InfoPlist.strings323356161#323356162#0(0"0(0#0#78"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/en.lproj/InfoPlist.strings8605306624#492"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv ICONV /usr/bin/iconv    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary LegisTotal/en.lproj/InfoPlist.strings --outdir /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/en.lproj0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/about.png LegisTotal/about.png
+s325899881.844626
+e325899881.856676
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/about.png
+xLegisTotal/about.png
+lSLF07#2@25"Copy LegisTotal/about.png325899881#325899881#0(0"0(0#0#61"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/about.png8604504736#478"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/about.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/about@2x.png LegisTotal/about@2x.png
+s325899881.847057
+e325899881.857641
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/about@2x.png
+xLegisTotal/about@2x.png
+lSLF07#2@28"Copy LegisTotal/about@2x.png325899881#325899881#0(0"0(0#0#64"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/about@2x.png8603977632#481"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/about@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/balance.png LegisTotal/balance.png
+s323870084.840390
+e323870084.845616
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/balance.png
+xLegisTotal/balance.png
+lSLF07#2@27"Copy LegisTotal/balance.png323870084#323870084#0(0"0(0#0#63"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balance.png8617578272#480"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balance.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/balance@2x.png LegisTotal/balance@2x.png
+s323870084.838618
+e323870084.852009
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/balance@2x.png
+xLegisTotal/balance@2x.png
+lSLF07#2@30"Copy LegisTotal/balance@2x.png323870084#323870084#0(0"0(0#0#66"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balance@2x.png8617934336#483"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balance@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/balanceTab@2x.png LegisTotal/balanceTab@2x.png
+s325899881.804178
+e325899881.838316
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/balanceTab@2x.png
+xLegisTotal/balanceTab@2x.png
+lSLF07#2@33"Copy LegisTotal/balanceTab@2x.png325899881#325899881#0(0"0(0#0#69"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balanceTab@2x.png8613188480#486"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/balanceTab@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/favs.png LegisTotal/favs.png
+s325899881.814206
+e325899881.851966
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/favs.png
+xLegisTotal/favs.png
+lSLF07#2@24"Copy LegisTotal/favs.png325899881#325899881#0(0"0(0#0#60"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/favs.png8607370432#477"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/favs.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/favs@2x.png LegisTotal/favs@2x.png
+s325899881.815844
+e325899881.839025
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/favs@2x.png
+xLegisTotal/favs@2x.png
+lSLF07#2@27"Copy LegisTotal/favs@2x.png325899881#325899881#0(0"0(0#0#63"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/favs@2x.png8605289184#480"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/favs@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/imagem.png LegisTotal/imagem.png
+s325872855.011668
+e325872855.221219
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/imagem.png
+xLegisTotal/imagem.png
+lSLF07#2@26"Copy LegisTotal/imagem.png325872855#325872855#0(0"0(0#0#62"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/imagem.png8596770016#479"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/imagem.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/imagem@2x.png LegisTotal/imagem@2x.png
+s325872855.012922
+e325872855.220720
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/imagem@2x.png
+xLegisTotal/imagem@2x.png
+lSLF07#2@29"Copy LegisTotal/imagem@2x.png325872855#325872855#0(0"0(0#0#65"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/imagem@2x.png8602999328#482"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/imagem@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/indice.png LegisTotal/indice.png
+s325899881.806081
+e325899881.838781
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/indice.png
+xLegisTotal/indice.png
+lSLF07#2@26"Copy LegisTotal/indice.png325899881#325899881#0(0"0(0#0#62"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/indice.png8612938848#479"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/indice.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/indice@2x.png LegisTotal/indice@2x.png
+s325899881.808955
+e325899881.851748
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/indice@2x.png
+xLegisTotal/indice@2x.png
+lSLF07#2@29"Copy LegisTotal/indice@2x.png325899881#325899881#0(0"0(0#0#65"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/indice@2x.png8612592992#482"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/indice@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/info.png LegisTotal/info.png
+s325961176.379580
+e325961176.471000
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/info.png
+xLegisTotal/info.png
+lSLF07#2@24"Copy LegisTotal/info.png325961176#325961176#0(0"0(0#0#60"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/info.png8603209376#477"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/info.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/info@2x.png LegisTotal/info@2x.png
+s325961176.380322
+e325961176.494725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/info@2x.png
+xLegisTotal/info@2x.png
+lSLF07#2@27"Copy LegisTotal/info@2x.png325961176#325961176#0(0"0(0#0#63"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/info@2x.png8602976288#480"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/info@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/legisTotal.sqlite LegisTotal/../legisTotal.sqlite
+s323889549.019057
+e323889549.098632
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/legisTotal.sqlite
+xLegisTotal/../legisTotal.sqlite
+lSLF07#2@36"Copy LegisTotal/../legisTotal.sqlite323889549#323889549#0(0"0(0#0#72"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../legisTotal.sqlite8607068480#489"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/../legisTotal.sqlite /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/legisTotal.sqlite legisTotal.sqlite
+s323356162.581860
+e323356162.677214
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/legisTotal.sqlite
+xlegisTotal.sqlite
+lSLF07#2@22"Copy legisTotal.sqlite323356162#323356162#0(0"0(0#0#58"/Users/dario/Documents/Iphone/LegisTotal/legisTotal.sqlite8602827584#475"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/legisTotal.sqlite /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/listaleis.png LegisTotal/listaleis.png
+s325899881.800838
+e325899881.827674
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/listaleis.png
+xLegisTotal/listaleis.png
+lSLF07#2@29"Copy LegisTotal/listaleis.png325899881#325899881#0(0"0(0#0#65"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/listaleis.png8613739104#482"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/listaleis.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/listaleis@2x.png LegisTotal/listaleis@2x.png
+s325899881.802432
+e325899881.838184
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/listaleis@2x.png
+xLegisTotal/listaleis@2x.png
+lSLF07#2@32"Copy LegisTotal/listaleis@2x.png325899881#325899881#0(0"0(0#0#68"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/listaleis@2x.png8613551264#485"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/listaleis@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/pesquisa.png LegisTotal/pesquisa.png
+s325899881.827781
+e325899881.858511
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/pesquisa.png
+xLegisTotal/pesquisa.png
+lSLF07#2@28"Copy LegisTotal/pesquisa.png325899881#325899881#0(0"0(0#0#64"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/pesquisa.png8604940640#481"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/pesquisa.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/pesquisa@2x.png LegisTotal/pesquisa@2x.png
+s325899881.839124
+e325899881.851623
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/pesquisa@2x.png
+xLegisTotal/pesquisa@2x.png
+lSLF07#2@31"Copy LegisTotal/pesquisa@2x.png325899881#325899881#0(0"0(0#0#67"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/pesquisa@2x.png8604657408#484"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/pesquisa@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/type.png LegisTotal/type.png
+s325899881.810814
+e325899881.838908
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/type.png
+xLegisTotal/type.png
+lSLF07#2@24"Copy LegisTotal/type.png325899881#325899881#0(0"0(0#0#60"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/type.png8612468800#477"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/type.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CCpResource build/Debug-iphonesimulator/LegisTotal.app/type@2x.png LegisTotal/type@2x.png
+s325899881.813141
+e325899881.851859
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LegisTotal.app/type@2x.png
+xLegisTotal/type@2x.png
+lSLF07#2@27"Copy LegisTotal/type@2x.png325899881#325899881#0(0"0(0#0#63"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/type@2x.png8611907008#480"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/type@2x.png /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+
+CGenerateDSYMFile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app.dSYM /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal
+s326335985.669887
+e326335985.858409
+r1
+xGenerateDSYMFile
+x/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app.dSYM
+x/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal
+lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/LegisTotal.app.dSYM build/Debug-iphonesimulator/LegisTotal.app/LegisTotal326335985#326335985#0(0"0(0#0#94"/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal8611812768#389"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/usr/bin/dsymutil /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal -o /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app.dSYM0#
+
+CLd /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal normal i386
+s326335985.084508
+e326335985.669774
+r1
+xLd
+x/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal
+xnormal
+xi386
+lSLF07#2@99"Link /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal326335985#326335985#0(0"0(0#0#0"8613332864#939"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -filelist /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/Objects-normal/i386/LegisTotal.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -lsqlite3.0 -prebind -o /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/LegisTotal0#
+
+CProcessInfoPlistFile /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/Info.plist LegisTotal/LegisTotal-Info.plist
+s323870082.813859
+e323870082.817272
+r1
+xProcessInfoPlistFile
+x/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/Info.plist
+xLegisTotal/LegisTotal-Info.plist
+lSLF07#2@40"Process LegisTotal/LegisTotal-Info.plist323870082#323870082#0(0"0(0#0#73"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotal-Info.plist8617191904#499"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility LegisTotal/LegisTotal-Info.plist -genpkginfo /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app/Info.plist0#
+
+CProcessPCH /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch.gch LegisTotal/LegisTotal-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s323356159.650086
+e323356160.806715
+r1
+xProcessPCH
+x/var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch.gch
+xLegisTotal/LegisTotal-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@43"Precompile LegisTotal/LegisTotal-Prefix.pch323356159#323356160#0(0"0(0#0#73"/Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotal-Prefix.pch8604917568#1877"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot /Xcode3/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-generated-files.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-own-target-headers.hmap -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-all-target-headers.hmap -iquote /Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/LegisTotal-project-headers.hmap -F/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator -I/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/include -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources/i386 -I/Users/dario/Documents/Iphone/LegisTotal/build/LegisTotal.build/Debug-iphonesimulator/LegisTotal.build/DerivedSources -c /Users/dario/Documents/Iphone/LegisTotal/LegisTotal/LegisTotal-Prefix.pch -o /var/folders/5p/5pJ5ajM3E+iiQKmJEA8GxU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/LegisTotal-Prefix-bcqrrfdukeoklkehlljwmvddplqs/LegisTotal-Prefix.pch.gch0#
+
+CTouch /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app
+s326335985.861184
+e326335985.889953
+r1
+xTouch
+x/Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app
+lSLF07#2@89"Touch /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app326335985#326335985#0(0"0(0#0#0"8611809984#279"    cd /Users/dario/Documents/Iphone/LegisTotal    setenv PATH "/Xcode3/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dario/Documents/Iphone/LegisTotal/build/Debug-iphonesimulator/LegisTotal.app0#
+

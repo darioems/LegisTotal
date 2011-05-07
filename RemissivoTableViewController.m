@@ -8,6 +8,8 @@
 
 #import "RemissivoTableViewController.h"
 
+#import "ViewWithWebViewController.h"
+
 
 @implementation RemissivoTableViewController
 
@@ -20,8 +22,30 @@
     return self;
 }
 
+// Monta o índice da Lei
+-(void)getIndiceWithIdLegis:(int *)idLegisAux {
+    
+    
+    NSMutableArray *legisAux = [LegisTotal getAllFilhosWithIdLegis:idLegisAux];
+    
+    if (legisAux != nil) {
+        for (int i = 0; i < [legisAux count]; i++) {
+            
+            LegisTotal *indiceAux = [legisAux objectAtIndex:i];
+            
+            [indiceCompleto addObject:indiceAux];
+            
+            [self getIndiceWithIdLegis:indiceAux.idLegis];
+            
+        }
+        
+    }
+    
+}
+
 - (void)dealloc
 {
+    [indiceCompleto release];
     [remissivo release];
     [super dealloc];
 }
@@ -39,34 +63,24 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    indiceCompleto = [[NSMutableArray alloc] init];
 	
 	LegisTotal *lei = [[LegisTotal alloc] init];
     
     remissivo = [LegisTotal getAllWithIdTipo:(int *)1];
     
-    int i,j;
-    
-    for (i = 0; i < [remissivo count]; i++) {
+    for (int i = 0; i < [remissivo count]; i++) {
         lei = [remissivo objectAtIndex:i];
         
-        allFilhos = [LegisTotal getAllFilhosWithIdLegis:lei.idLegis];
+        [indiceCompleto addObject:lei];
         
-        NSLog(@"lei: %@", lei.descricao);
-        
-        for (j = 0; j < [allFilhos count]; j++) {
-            LegisTotal *filho = [allFilhos objectAtIndex:j];
-            NSLog(@"allFihos: %@", filho.descricao);
-        }
-        
+        [self getIndiceWithIdLegis:lei.idLegis];
     }
     
-    [super setTitle:@"Remissivo"];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    NSLog(@"Indice Completo: %i", [indiceCompleto count]);  
+    
+    [super setTitle:@"Indice"];
 
 }
 
@@ -75,26 +89,6 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-    [super viewDidDisappear:animated];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -111,12 +105,21 @@
 
  - (NSInteger)tableView:(UITableView *)tableView indentationLevelForRowAtIndexPath:(NSIndexPath *)indexPath {
      
-     LegisTotal *legisAux = [remissivo objectAtIndex:indexPath.row];
+     LegisTotal *legisAux = [indiceCompleto objectAtIndex:indexPath.row];
          
-     if ((int)legisAux.idTipo == 1) {
-         return 0;
+     switch ((int)legisAux.idTipo) {
+         case 14:
+             return 2;
+             break;
+         case 16:
+             return 4;
+             break;
+         case 17:
+             return 6;
+             break;
+         default:
+             return 0;
      }
-     return 3;
  }
 
 #pragma mark - Table view data source
@@ -130,7 +133,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return [remissivo count];
+    return [indiceCompleto count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -139,14 +142,22 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
     }
         
     // Configure the cell...*/
     
-    LegisTotal *legisAux = [remissivo objectAtIndex:indexPath.row];
+    LegisTotal *legisAux = [indiceCompleto objectAtIndex:indexPath.row];
 	
-    cell.textLabel.text = legisAux.descricao;
+    if (legisAux.idTipo != (int*)17) {
+        cell.textLabel.text = legisAux.descricao;
+        cell.detailTextLabel.text = legisAux.texto;
+    }
+    else {
+        cell.textLabel.text = legisAux.descricao;
+        cell.detailTextLabel.text = @"";
+    }
+    
 	
     return cell;
 }
@@ -155,6 +166,14 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    LegisTotal *legisAux = [indiceCompleto objectAtIndex:indexPath.row];
+    
+    if ((int) legisAux.idTipo == 17) {
+		
+		ViewWithWebViewController *view = [[ViewWithWebViewController alloc] initWithArtigoId:legisAux.idLegis];	
+		
+		[self.navigationController pushViewController:view animated:YES];
+    }
    // LegisTotal *legisAux = [remissivo objectAtIndex:indexPath.row];    
     
 	//FilhosTableViewController *filhosLegis = [[FilhosTableViewController alloc] initWithIdLegis:legisAux.idLegis];

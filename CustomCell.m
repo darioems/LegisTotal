@@ -41,6 +41,8 @@
 	[titulo release];
 	[subtitulo release];
 	[conteudo release];
+	[viewCell release];
+	[imagem release];
     [super dealloc];
 }
 
